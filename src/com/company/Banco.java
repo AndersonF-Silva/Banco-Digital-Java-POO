@@ -1,7 +1,10 @@
 package com.company;
 
+import java.util.List;
+
 public class Banco {
     private String nome;
+    private List <Contas> conta;
 
     public String getNome() {
         return nome;
@@ -11,4 +14,11 @@ public class Banco {
         this.nome = nome;
     }
 
+    public List<Contas> getConta() {
+        return conta;
+    }
+
+    public void setConta(List<Contas> conta) {
+        this.conta = conta;
+    }
 }
